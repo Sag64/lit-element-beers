@@ -24,7 +24,6 @@
     "@granite-elements/granite-vaadin-router": "^1.0.5",
     "lit-element": "^2.1.0",
     "@vaadin/router": "1.2.0"
-
   },
   "devDependencies": {
     "@pika/web": "^0.4.4"
