@@ -1,0 +1,894 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '@granite-elements/granite-lit-bootstrap' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData @granite-elements/granite-lit-bootstrap
+8 silly fetchNamedPackageData @granite-elements/granite-lit-bootstrap
+9 silly mapToRegistry name @granite-elements/granite-lit-bootstrap
+10 silly mapToRegistry scope (from package name) @granite-elements
+11 verbose mapToRegistry no registry URL found in name for scope @granite-elements
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/@granite-elements%2fgranite-lit-bootstrap
+15 verbose request uri https://registry.npmjs.org/@granite-elements%2fgranite-lit-bootstrap
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 9:14:07 AM
+18 verbose request id 252a6e23e5476367
+19 verbose etag W/"f7496e9857cfdf35384e9adc4ec3d322"
+20 verbose lastModified Thu, 06 Jun 2019 08:33:51 GMT
+21 http request GET https://registry.npmjs.org/@granite-elements%2fgranite-lit-bootstrap
+22 http 304 https://registry.npmjs.org/@granite-elements%2fgranite-lit-bootstrap
+23 verbose headers { date: 'Tue, 10 Dec 2019 08:13:55 GMT',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'set-cookie':
+23 verbose headers    [ '__cfduid=dd4f6fae2d0cae04d24899bd9f5d19bbb1575965634; expires=Thu, 09-Jan-20 08:13:54 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+23 verbose headers   'cf-ray': '542dc31e5ec6cd9f-CDG',
+23 verbose headers   age: '0',
+23 verbose headers   'cache-control': 'public, max-age=300',
+23 verbose headers   etag: '"f7496e9857cfdf35384e9adc4ec3d322"',
+23 verbose headers   'last-modified': 'Thu, 06 Jun 2019 08:33:51 GMT',
+23 verbose headers   vary: 'Accept-Encoding',
+23 verbose headers   'cf-cache-status': 'HIT',
+23 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 verbose headers   server: 'cloudflare' }
+24 silly get cb [ 304,
+24 silly get   { date: 'Tue, 10 Dec 2019 08:13:55 GMT',
+24 silly get     connection: 'keep-alive',
+24 silly get     'set-cookie':
+24 silly get      [ '__cfduid=dd4f6fae2d0cae04d24899bd9f5d19bbb1575965634; expires=Thu, 09-Jan-20 08:13:54 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+24 silly get     'cf-ray': '542dc31e5ec6cd9f-CDG',
+24 silly get     age: '0',
+24 silly get     'cache-control': 'public, max-age=300',
+24 silly get     etag: '"f7496e9857cfdf35384e9adc4ec3d322"',
+24 silly get     'last-modified': 'Thu, 06 Jun 2019 08:33:51 GMT',
+24 silly get     vary: 'Accept-Encoding',
+24 silly get     'cf-cache-status': 'HIT',
+24 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+24 silly get     server: 'cloudflare' } ]
+25 verbose etag https://registry.npmjs.org/@granite-elements%2fgranite-lit-bootstrap from cache
+26 verbose get saving @granite-elements/granite-lit-bootstrap to /home/steve/.npm/registry.npmjs.org/_40granite-elements_252fgranite-lit-bootstrap/.cache.json
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule @granite-elements/granite-lit-bootstrap@4.3.1-3 checking installable status
+40 silly cache add args [ '@granite-elements/granite-lit-bootstrap', null ]
+41 verbose cache add spec @granite-elements/granite-lit-bootstrap
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: '@granite-elements/granite-lit-bootstrap',
+42 silly cache add   scope: '@granite-elements',
+42 silly cache add   name: '@granite-elements/granite-lit-bootstrap',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed @granite-elements/granite-lit-bootstrap@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for @granite-elements/granite-lit-bootstrap
+45 info addNameTag [ '@granite-elements/granite-lit-bootstrap', 'latest' ]
+46 silly mapToRegistry name @granite-elements/granite-lit-bootstrap
+47 silly mapToRegistry scope (from package name) @granite-elements
+48 verbose mapToRegistry no registry URL found in name for scope @granite-elements
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/@granite-elements%2fgranite-lit-bootstrap
+52 verbose addNameTag registry:https://registry.npmjs.org/@granite-elements%2fgranite-lit-bootstrap not in flight; fetching
+53 verbose get https://registry.npmjs.org/@granite-elements%2fgranite-lit-bootstrap not expired, no request
+54 silly addNameTag next cb for @granite-elements/granite-lit-bootstrap with tag latest
+55 silly addNamed @granite-elements/granite-lit-bootstrap@4.3.1-3
+56 verbose addNamed "4.3.1-3" is a plain semver version for @granite-elements/granite-lit-bootstrap
+57 silly cache afterAdd @granite-elements/granite-lit-bootstrap@4.3.1-3
+58 verbose afterAdd /home/steve/.npm/@granite-elements/granite-lit-bootstrap/4.3.1-3/package/package.json not in flight; writing
+59 verbose afterAdd /home/steve/.npm/@granite-elements/granite-lit-bootstrap/4.3.1-3/package/package.json written
+60 silly fetchNamedPackageData bootstrap
+61 silly mapToRegistry name bootstrap
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+65 verbose request uri https://registry.npmjs.org/bootstrap
+66 verbose request no auth needed
+67 info attempt registry request try #1 at 9:14:15 AM
+68 verbose etag W/"ba8a1e007a5e317153e96023b0e643bd"
+69 verbose lastModified Thu, 28 Nov 2019 13:08:43 GMT
+70 http request GET https://registry.npmjs.org/bootstrap
+71 http 304 https://registry.npmjs.org/bootstrap
+72 verbose headers { date: 'Tue, 10 Dec 2019 08:13:56 GMT',
+72 verbose headers   connection: 'keep-alive',
+72 verbose headers   'set-cookie':
+72 verbose headers    [ '__cfduid=dc4187ba527e669846839132edef2cf031575965636; expires=Thu, 09-Jan-20 08:13:56 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+72 verbose headers   'cf-ray': '542dc32a19cdcd9f-CDG',
+72 verbose headers   age: '86',
+72 verbose headers   'cache-control': 'public, max-age=300',
+72 verbose headers   etag: '"ba8a1e007a5e317153e96023b0e643bd"',
+72 verbose headers   'last-modified': 'Thu, 28 Nov 2019 13:08:43 GMT',
+72 verbose headers   vary: 'Accept-Encoding',
+72 verbose headers   'cf-cache-status': 'HIT',
+72 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+72 verbose headers   server: 'cloudflare' }
+73 silly get cb [ 304,
+73 silly get   { date: 'Tue, 10 Dec 2019 08:13:56 GMT',
+73 silly get     connection: 'keep-alive',
+73 silly get     'set-cookie':
+73 silly get      [ '__cfduid=dc4187ba527e669846839132edef2cf031575965636; expires=Thu, 09-Jan-20 08:13:56 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+73 silly get     'cf-ray': '542dc32a19cdcd9f-CDG',
+73 silly get     age: '86',
+73 silly get     'cache-control': 'public, max-age=300',
+73 silly get     etag: '"ba8a1e007a5e317153e96023b0e643bd"',
+73 silly get     'last-modified': 'Thu, 28 Nov 2019 13:08:43 GMT',
+73 silly get     vary: 'Accept-Encoding',
+73 silly get     'cf-cache-status': 'HIT',
+73 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+73 silly get     server: 'cloudflare' } ]
+74 verbose etag https://registry.npmjs.org/bootstrap from cache
+75 verbose get saving bootstrap to /home/steve/.npm/registry.npmjs.org/bootstrap/.cache.json
+76 silly resolveWithNewModule bootstrap@4.3.1 checking installable status
+77 silly cache add args [ 'bootstrap@4.3.1', null ]
+78 verbose cache add spec bootstrap@4.3.1
+79 silly cache add parsed spec Result {
+79 silly cache add   raw: 'bootstrap@4.3.1',
+79 silly cache add   scope: null,
+79 silly cache add   name: 'bootstrap',
+79 silly cache add   rawSpec: '4.3.1',
+79 silly cache add   spec: '4.3.1',
+79 silly cache add   type: 'version' }
+80 silly addNamed bootstrap@4.3.1
+81 verbose addNamed "4.3.1" is a plain semver version for bootstrap
+82 silly mapToRegistry name bootstrap
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+86 verbose addNameVersion registry:https://registry.npmjs.org/bootstrap not in flight; fetching
+87 verbose get https://registry.npmjs.org/bootstrap not expired, no request
+88 silly cache afterAdd bootstrap@4.3.1
+89 verbose afterAdd /home/steve/.npm/bootstrap/4.3.1/package/package.json not in flight; writing
+90 verbose afterAdd /home/steve/.npm/bootstrap/4.3.1/package/package.json written
+91 silly loadAllDepsIntoIdealTree Finishing
+92 silly idealTree:prePrune lit-element-beers@1.0.0
+92 silly idealTree:prePrune ├── @babel/code-frame@7.5.5
+92 silly idealTree:prePrune ├── @babel/core@7.7.5
+92 silly idealTree:prePrune ├── @babel/generator@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-annotate-as-pure@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-builder-binary-assignment-operator-visitor@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-call-delegate@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-create-regexp-features-plugin@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-define-map@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-explode-assignable-expression@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-function-name@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-get-function-arity@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-hoist-variables@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-member-expression-to-functions@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-module-imports@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-module-transforms@7.7.5
+92 silly idealTree:prePrune ├── @babel/helper-optimise-call-expression@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-plugin-utils@7.0.0
+92 silly idealTree:prePrune ├── @babel/helper-regex@7.5.5
+92 silly idealTree:prePrune ├── @babel/helper-remap-async-to-generator@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-replace-supers@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-simple-access@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-split-export-declaration@7.7.4
+92 silly idealTree:prePrune ├── @babel/helper-wrap-function@7.7.4
+92 silly idealTree:prePrune ├── @babel/helpers@7.7.4
+92 silly idealTree:prePrune ├── @babel/highlight@7.5.0
+92 silly idealTree:prePrune ├── @babel/parser@7.7.5
+92 silly idealTree:prePrune ├── @babel/plugin-proposal-async-generator-functions@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-proposal-dynamic-import@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-proposal-json-strings@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-proposal-object-rest-spread@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-proposal-optional-catch-binding@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-proposal-unicode-property-regex@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-syntax-async-generators@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-syntax-dynamic-import@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-syntax-json-strings@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-syntax-object-rest-spread@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-syntax-optional-catch-binding@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-syntax-top-level-await@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-arrow-functions@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-async-to-generator@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-block-scoped-functions@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-block-scoping@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-classes@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-computed-properties@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-destructuring@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-dotall-regex@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-duplicate-keys@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-exponentiation-operator@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-for-of@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-function-name@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-literals@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-member-expression-literals@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-modules-amd@7.7.5
+92 silly idealTree:prePrune ├── @babel/plugin-transform-modules-commonjs@7.7.5
+92 silly idealTree:prePrune ├── @babel/plugin-transform-modules-systemjs@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-modules-umd@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-named-capturing-groups-regex@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-new-target@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-object-super@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-parameters@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-property-literals@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-regenerator@7.7.5
+92 silly idealTree:prePrune ├── @babel/plugin-transform-reserved-words@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-shorthand-properties@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-spread@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-sticky-regex@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-template-literals@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-typeof-symbol@7.7.4
+92 silly idealTree:prePrune ├── @babel/plugin-transform-unicode-regex@7.7.4
+92 silly idealTree:prePrune ├── @babel/preset-env@7.7.6
+92 silly idealTree:prePrune ├── @babel/template@7.7.4
+92 silly idealTree:prePrune ├── @babel/traverse@7.7.4
+92 silly idealTree:prePrune ├── @babel/types@7.7.4
+92 silly idealTree:prePrune ├── @granite-elements/granite-lit-bootstrap@4.3.1-3
+92 silly idealTree:prePrune ├── @pika/cli@0.2.0
+92 silly idealTree:prePrune ├── @pika/web@0.6.1
+92 silly idealTree:prePrune ├── @types/estree@0.0.40
+92 silly idealTree:prePrune ├── @types/node@12.12.15
+92 silly idealTree:prePrune ├── @types/resolve@0.0.8
+92 silly idealTree:prePrune ├── acorn@7.1.0
+92 silly idealTree:prePrune ├── ansi-regex@4.1.0
+92 silly idealTree:prePrune ├── ansi-styles@3.2.1
+92 silly idealTree:prePrune ├── babel-plugin-dynamic-import-node@2.3.0
+92 silly idealTree:prePrune ├── balanced-match@1.0.0
+92 silly idealTree:prePrune ├── bootstrap@4.3.1
+92 silly idealTree:prePrune ├── brace-expansion@1.1.11
+92 silly idealTree:prePrune ├── browserslist@4.8.2
+92 silly idealTree:prePrune ├── buffer-from@1.1.1
+92 silly idealTree:prePrune ├── builtin-modules@3.1.0
+92 silly idealTree:prePrune ├── camelcase@5.3.1
+92 silly idealTree:prePrune ├── caniuse-lite@1.0.30001015
+92 silly idealTree:prePrune ├── chalk@2.4.2
+92 silly idealTree:prePrune ├── cli-cursor@2.1.0
+92 silly idealTree:prePrune ├── cli-spinners@2.2.0
+92 silly idealTree:prePrune ├── clone@1.0.4
+92 silly idealTree:prePrune ├── color-convert@1.9.3
+92 silly idealTree:prePrune ├── color-name@1.1.3
+92 silly idealTree:prePrune ├── commander@2.20.3
+92 silly idealTree:prePrune ├── concat-map@0.0.1
+92 silly idealTree:prePrune ├── convert-source-map@1.7.0
+92 silly idealTree:prePrune ├─┬ core-js-compat@3.4.8
+92 silly idealTree:prePrune │ └── semver@6.3.0
+92 silly idealTree:prePrune ├── cross-spawn@7.0.1
+92 silly idealTree:prePrune ├── debug@4.1.1
+92 silly idealTree:prePrune ├── decamelize@1.2.0
+92 silly idealTree:prePrune ├── defaults@1.0.3
+92 silly idealTree:prePrune ├── define-properties@1.1.3
+92 silly idealTree:prePrune ├── detect-indent@6.0.0
+92 silly idealTree:prePrune ├── electron-to-chromium@1.3.322
+92 silly idealTree:prePrune ├── end-of-stream@1.4.4
+92 silly idealTree:prePrune ├── escape-string-regexp@1.0.5
+92 silly idealTree:prePrune ├── estree-walker@0.6.1
+92 silly idealTree:prePrune ├── esutils@2.0.3
+92 silly idealTree:prePrune ├── execa@2.1.0
+92 silly idealTree:prePrune ├── fs.realpath@1.0.0
+92 silly idealTree:prePrune ├── function-bind@1.1.1
+92 silly idealTree:prePrune ├── get-stream@5.1.0
+92 silly idealTree:prePrune ├── glob@7.1.6
+92 silly idealTree:prePrune ├── globals@11.12.0
+92 silly idealTree:prePrune ├── has-flag@3.0.0
+92 silly idealTree:prePrune ├── has-symbols@1.0.1
+92 silly idealTree:prePrune ├── inflight@1.0.6
+92 silly idealTree:prePrune ├── inherits@2.0.4
+92 silly idealTree:prePrune ├── invariant@2.2.4
+92 silly idealTree:prePrune ├── is-builtin-module@3.0.0
+92 silly idealTree:prePrune ├── is-module@1.0.0
+92 silly idealTree:prePrune ├─┬ is-reference@1.1.4
+92 silly idealTree:prePrune │ └── @types/estree@0.0.39
+92 silly idealTree:prePrune ├── is-stream@2.0.0
+92 silly idealTree:prePrune ├── isexe@2.0.0
+92 silly idealTree:prePrune ├─┬ jest-worker@24.9.0
+92 silly idealTree:prePrune │ └── supports-color@6.1.0
+92 silly idealTree:prePrune ├── js-levenshtein@1.1.6
+92 silly idealTree:prePrune ├── js-tokens@4.0.0
+92 silly idealTree:prePrune ├── jsesc@2.5.2
+92 silly idealTree:prePrune ├── json5@2.1.1
+92 silly idealTree:prePrune ├── lit-element@2.2.1
+92 silly idealTree:prePrune ├── lit-html@1.1.2
+92 silly idealTree:prePrune ├── lodash@4.17.15
+92 silly idealTree:prePrune ├── log-symbols@2.2.0
+92 silly idealTree:prePrune ├── loose-envify@1.4.0
+92 silly idealTree:prePrune ├── magic-string@0.25.4
+92 silly idealTree:prePrune ├── merge-stream@2.0.0
+92 silly idealTree:prePrune ├── mimic-fn@2.1.0
+92 silly idealTree:prePrune ├── minimatch@3.0.4
+92 silly idealTree:prePrune ├── minimist@1.2.0
+92 silly idealTree:prePrune ├─┬ mkdirp@0.5.1
+92 silly idealTree:prePrune │ └── minimist@0.0.8
+92 silly idealTree:prePrune ├── ms@2.1.2
+92 silly idealTree:prePrune ├─┬ node-releases@1.1.42
+92 silly idealTree:prePrune │ └── semver@6.3.0
+92 silly idealTree:prePrune ├── npm-run-path@3.1.0
+92 silly idealTree:prePrune ├── object-keys@1.1.1
+92 silly idealTree:prePrune ├── object.assign@4.1.0
+92 silly idealTree:prePrune ├── once@1.4.0
+92 silly idealTree:prePrune ├── onetime@5.1.0
+92 silly idealTree:prePrune ├── ora@3.4.0
+92 silly idealTree:prePrune ├── p-finally@2.0.1
+92 silly idealTree:prePrune ├── path-is-absolute@1.0.1
+92 silly idealTree:prePrune ├── path-key@3.1.1
+92 silly idealTree:prePrune ├── path-parse@1.0.6
+92 silly idealTree:prePrune ├── private@0.1.8
+92 silly idealTree:prePrune ├── pump@3.0.0
+92 silly idealTree:prePrune ├── regenerate-unicode-properties@8.1.0
+92 silly idealTree:prePrune ├── regenerate@1.4.0
+92 silly idealTree:prePrune ├── regenerator-transform@0.14.1
+92 silly idealTree:prePrune ├── regexpu-core@4.6.0
+92 silly idealTree:prePrune ├── regjsgen@0.5.1
+92 silly idealTree:prePrune ├─┬ regjsparser@0.6.0
+92 silly idealTree:prePrune │ └── jsesc@0.5.0
+92 silly idealTree:prePrune ├── resolve-from@5.0.0
+92 silly idealTree:prePrune ├── resolve@1.13.1
+92 silly idealTree:prePrune ├─┬ restore-cursor@2.0.0
+92 silly idealTree:prePrune │ ├── mimic-fn@1.2.0
+92 silly idealTree:prePrune │ └── onetime@2.0.1
+92 silly idealTree:prePrune ├── rimraf@3.0.0
+92 silly idealTree:prePrune ├── rollup-plugin-babel@4.3.3
+92 silly idealTree:prePrune ├── rollup-plugin-commonjs@10.1.0
+92 silly idealTree:prePrune ├── rollup-plugin-json@4.0.0
+92 silly idealTree:prePrune ├── rollup-plugin-node-resolve@5.2.0
+92 silly idealTree:prePrune ├── rollup-plugin-replace@2.2.0
+92 silly idealTree:prePrune ├── rollup-plugin-terser@5.1.2
+92 silly idealTree:prePrune ├── rollup-pluginutils@2.8.2
+92 silly idealTree:prePrune ├── rollup@1.27.9
+92 silly idealTree:prePrune ├── safe-buffer@5.1.2
+92 silly idealTree:prePrune ├── semver@5.7.1
+92 silly idealTree:prePrune ├── serialize-javascript@1.9.1
+92 silly idealTree:prePrune ├── shebang-command@2.0.0
+92 silly idealTree:prePrune ├── shebang-regex@3.0.0
+92 silly idealTree:prePrune ├── signal-exit@3.0.2
+92 silly idealTree:prePrune ├─┬ source-map-support@0.5.16
+92 silly idealTree:prePrune │ └── source-map@0.6.1
+92 silly idealTree:prePrune ├── source-map@0.5.7
+92 silly idealTree:prePrune ├── sourcemap-codec@1.4.6
+92 silly idealTree:prePrune ├── strip-ansi@5.2.0
+92 silly idealTree:prePrune ├── strip-final-newline@2.0.0
+92 silly idealTree:prePrune ├── supports-color@5.5.0
+92 silly idealTree:prePrune ├─┬ terser@4.4.2
+92 silly idealTree:prePrune │ └── source-map@0.6.1
+92 silly idealTree:prePrune ├── to-fast-properties@2.0.0
+92 silly idealTree:prePrune ├── unicode-canonical-property-names-ecmascript@1.0.4
+92 silly idealTree:prePrune ├── unicode-match-property-ecmascript@1.0.4
+92 silly idealTree:prePrune ├── unicode-match-property-value-ecmascript@1.1.0
+92 silly idealTree:prePrune ├── unicode-property-aliases-ecmascript@1.0.5
+92 silly idealTree:prePrune ├── wcwidth@1.0.1
+92 silly idealTree:prePrune ├── which@2.0.2
+92 silly idealTree:prePrune ├── wrappy@1.0.2
+92 silly idealTree:prePrune └── yargs-parser@13.1.1
+93 silly loadIdealTree Finishing
+94 silly currentTree lit-element-beers@1.0.0
+94 silly currentTree ├── @babel/code-frame@7.5.5
+94 silly currentTree ├── @babel/core@7.7.5
+94 silly currentTree ├── @babel/generator@7.7.4
+94 silly currentTree ├── @babel/helper-annotate-as-pure@7.7.4
+94 silly currentTree ├── @babel/helper-builder-binary-assignment-operator-visitor@7.7.4
+94 silly currentTree ├── @babel/helper-call-delegate@7.7.4
+94 silly currentTree ├── @babel/helper-create-regexp-features-plugin@7.7.4
+94 silly currentTree ├── @babel/helper-define-map@7.7.4
+94 silly currentTree ├── @babel/helper-explode-assignable-expression@7.7.4
+94 silly currentTree ├── @babel/helper-function-name@7.7.4
+94 silly currentTree ├── @babel/helper-get-function-arity@7.7.4
+94 silly currentTree ├── @babel/helper-hoist-variables@7.7.4
+94 silly currentTree ├── @babel/helper-member-expression-to-functions@7.7.4
+94 silly currentTree ├── @babel/helper-module-imports@7.7.4
+94 silly currentTree ├── @babel/helper-module-transforms@7.7.5
+94 silly currentTree ├── @babel/helper-optimise-call-expression@7.7.4
+94 silly currentTree ├── @babel/helper-plugin-utils@7.0.0
+94 silly currentTree ├── @babel/helper-regex@7.5.5
+94 silly currentTree ├── @babel/helper-remap-async-to-generator@7.7.4
+94 silly currentTree ├── @babel/helper-replace-supers@7.7.4
+94 silly currentTree ├── @babel/helper-simple-access@7.7.4
+94 silly currentTree ├── @babel/helper-split-export-declaration@7.7.4
+94 silly currentTree ├── @babel/helper-wrap-function@7.7.4
+94 silly currentTree ├── @babel/helpers@7.7.4
+94 silly currentTree ├── @babel/highlight@7.5.0
+94 silly currentTree ├── @babel/parser@7.7.5
+94 silly currentTree ├── @babel/plugin-proposal-async-generator-functions@7.7.4
+94 silly currentTree ├── @babel/plugin-proposal-dynamic-import@7.7.4
+94 silly currentTree ├── @babel/plugin-proposal-json-strings@7.7.4
+94 silly currentTree ├── @babel/plugin-proposal-object-rest-spread@7.7.4
+94 silly currentTree ├── @babel/plugin-proposal-optional-catch-binding@7.7.4
+94 silly currentTree ├── @babel/plugin-proposal-unicode-property-regex@7.7.4
+94 silly currentTree ├── @babel/plugin-syntax-async-generators@7.7.4
+94 silly currentTree ├── @babel/plugin-syntax-dynamic-import@7.7.4
+94 silly currentTree ├── @babel/plugin-syntax-json-strings@7.7.4
+94 silly currentTree ├── @babel/plugin-syntax-object-rest-spread@7.7.4
+94 silly currentTree ├── @babel/plugin-syntax-optional-catch-binding@7.7.4
+94 silly currentTree ├── @babel/plugin-syntax-top-level-await@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-arrow-functions@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-async-to-generator@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-block-scoped-functions@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-block-scoping@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-classes@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-computed-properties@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-destructuring@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-dotall-regex@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-duplicate-keys@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-exponentiation-operator@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-for-of@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-function-name@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-literals@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-member-expression-literals@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-modules-amd@7.7.5
+94 silly currentTree ├── @babel/plugin-transform-modules-commonjs@7.7.5
+94 silly currentTree ├── @babel/plugin-transform-modules-systemjs@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-modules-umd@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-named-capturing-groups-regex@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-new-target@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-object-super@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-parameters@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-property-literals@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-regenerator@7.7.5
+94 silly currentTree ├── @babel/plugin-transform-reserved-words@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-shorthand-properties@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-spread@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-sticky-regex@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-template-literals@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-typeof-symbol@7.7.4
+94 silly currentTree ├── @babel/plugin-transform-unicode-regex@7.7.4
+94 silly currentTree ├── @babel/preset-env@7.7.6
+94 silly currentTree ├── @babel/template@7.7.4
+94 silly currentTree ├── @babel/traverse@7.7.4
+94 silly currentTree ├── @babel/types@7.7.4
+94 silly currentTree ├── @granite-elements/granite-lit-bootstrap@4.3.1-3
+94 silly currentTree ├── @pika/cli@0.2.0
+94 silly currentTree ├── @pika/web@0.6.1
+94 silly currentTree ├── @types/estree@0.0.40
+94 silly currentTree ├── @types/node@12.12.15
+94 silly currentTree ├── @types/resolve@0.0.8
+94 silly currentTree ├── acorn@7.1.0
+94 silly currentTree ├── ansi-regex@4.1.0
+94 silly currentTree ├── ansi-styles@3.2.1
+94 silly currentTree ├── babel-plugin-dynamic-import-node@2.3.0
+94 silly currentTree ├── balanced-match@1.0.0
+94 silly currentTree ├── bootstrap@4.3.1
+94 silly currentTree ├── brace-expansion@1.1.11
+94 silly currentTree ├── browserslist@4.8.2
+94 silly currentTree ├── buffer-from@1.1.1
+94 silly currentTree ├── builtin-modules@3.1.0
+94 silly currentTree ├── camelcase@5.3.1
+94 silly currentTree ├── caniuse-lite@1.0.30001015
+94 silly currentTree ├── chalk@2.4.2
+94 silly currentTree ├── cli-cursor@2.1.0
+94 silly currentTree ├── cli-spinners@2.2.0
+94 silly currentTree ├── clone@1.0.4
+94 silly currentTree ├── color-convert@1.9.3
+94 silly currentTree ├── color-name@1.1.3
+94 silly currentTree ├── commander@2.20.3
+94 silly currentTree ├── concat-map@0.0.1
+94 silly currentTree ├── convert-source-map@1.7.0
+94 silly currentTree ├─┬ core-js-compat@3.4.8
+94 silly currentTree │ └── semver@6.3.0
+94 silly currentTree ├── cross-spawn@7.0.1
+94 silly currentTree ├── debug@4.1.1
+94 silly currentTree ├── decamelize@1.2.0
+94 silly currentTree ├── defaults@1.0.3
+94 silly currentTree ├── define-properties@1.1.3
+94 silly currentTree ├── detect-indent@6.0.0
+94 silly currentTree ├── electron-to-chromium@1.3.322
+94 silly currentTree ├── end-of-stream@1.4.4
+94 silly currentTree ├── escape-string-regexp@1.0.5
+94 silly currentTree ├── estree-walker@0.6.1
+94 silly currentTree ├── esutils@2.0.3
+94 silly currentTree ├── execa@2.1.0
+94 silly currentTree ├── fs.realpath@1.0.0
+94 silly currentTree ├── function-bind@1.1.1
+94 silly currentTree ├── get-stream@5.1.0
+94 silly currentTree ├── glob@7.1.6
+94 silly currentTree ├── globals@11.12.0
+94 silly currentTree ├── has-flag@3.0.0
+94 silly currentTree ├── has-symbols@1.0.1
+94 silly currentTree ├── inflight@1.0.6
+94 silly currentTree ├── inherits@2.0.4
+94 silly currentTree ├── invariant@2.2.4
+94 silly currentTree ├── is-builtin-module@3.0.0
+94 silly currentTree ├── is-module@1.0.0
+94 silly currentTree ├─┬ is-reference@1.1.4
+94 silly currentTree │ └── @types/estree@0.0.39
+94 silly currentTree ├── is-stream@2.0.0
+94 silly currentTree ├── isexe@2.0.0
+94 silly currentTree ├─┬ jest-worker@24.9.0
+94 silly currentTree │ └── supports-color@6.1.0
+94 silly currentTree ├── js-levenshtein@1.1.6
+94 silly currentTree ├── js-tokens@4.0.0
+94 silly currentTree ├── jsesc@2.5.2
+94 silly currentTree ├── json5@2.1.1
+94 silly currentTree ├── lit-element@2.2.1
+94 silly currentTree ├── lit-html@1.1.2
+94 silly currentTree ├── lodash@4.17.15
+94 silly currentTree ├── log-symbols@2.2.0
+94 silly currentTree ├── loose-envify@1.4.0
+94 silly currentTree ├── magic-string@0.25.4
+94 silly currentTree ├── merge-stream@2.0.0
+94 silly currentTree ├── mimic-fn@2.1.0
+94 silly currentTree ├── minimatch@3.0.4
+94 silly currentTree ├── minimist@1.2.0
+94 silly currentTree ├─┬ mkdirp@0.5.1
+94 silly currentTree │ └── minimist@0.0.8
+94 silly currentTree ├── ms@2.1.2
+94 silly currentTree ├─┬ node-releases@1.1.42
+94 silly currentTree │ └── semver@6.3.0
+94 silly currentTree ├── npm-run-path@3.1.0
+94 silly currentTree ├── object-keys@1.1.1
+94 silly currentTree ├── object.assign@4.1.0
+94 silly currentTree ├── once@1.4.0
+94 silly currentTree ├── onetime@5.1.0
+94 silly currentTree ├── ora@3.4.0
+94 silly currentTree ├── p-finally@2.0.1
+94 silly currentTree ├── path-is-absolute@1.0.1
+94 silly currentTree ├── path-key@3.1.1
+94 silly currentTree ├── path-parse@1.0.6
+94 silly currentTree ├── private@0.1.8
+94 silly currentTree ├── pump@3.0.0
+94 silly currentTree ├── regenerate-unicode-properties@8.1.0
+94 silly currentTree ├── regenerate@1.4.0
+94 silly currentTree ├── regenerator-transform@0.14.1
+94 silly currentTree ├── regexpu-core@4.6.0
+94 silly currentTree ├── regjsgen@0.5.1
+94 silly currentTree ├─┬ regjsparser@0.6.0
+94 silly currentTree │ └── jsesc@0.5.0
+94 silly currentTree ├── resolve-from@5.0.0
+94 silly currentTree ├── resolve@1.13.1
+94 silly currentTree ├─┬ restore-cursor@2.0.0
+94 silly currentTree │ ├── mimic-fn@1.2.0
+94 silly currentTree │ └── onetime@2.0.1
+94 silly currentTree ├── rimraf@3.0.0
+94 silly currentTree ├── rollup-plugin-babel@4.3.3
+94 silly currentTree ├── rollup-plugin-commonjs@10.1.0
+94 silly currentTree ├── rollup-plugin-json@4.0.0
+94 silly currentTree ├── rollup-plugin-node-resolve@5.2.0
+94 silly currentTree ├── rollup-plugin-replace@2.2.0
+94 silly currentTree ├── rollup-plugin-terser@5.1.2
+94 silly currentTree ├── rollup-pluginutils@2.8.2
+94 silly currentTree ├── rollup@1.27.9
+94 silly currentTree ├── safe-buffer@5.1.2
+94 silly currentTree ├── semver@5.7.1
+94 silly currentTree ├── serialize-javascript@1.9.1
+94 silly currentTree ├── shebang-command@2.0.0
+94 silly currentTree ├── shebang-regex@3.0.0
+94 silly currentTree ├── signal-exit@3.0.2
+94 silly currentTree ├─┬ source-map-support@0.5.16
+94 silly currentTree │ └── source-map@0.6.1
+94 silly currentTree ├── source-map@0.5.7
+94 silly currentTree ├── sourcemap-codec@1.4.6
+94 silly currentTree ├── strip-ansi@5.2.0
+94 silly currentTree ├── strip-final-newline@2.0.0
+94 silly currentTree ├── supports-color@5.5.0
+94 silly currentTree ├─┬ terser@4.4.2
+94 silly currentTree │ └── source-map@0.6.1
+94 silly currentTree ├── to-fast-properties@2.0.0
+94 silly currentTree ├── unicode-canonical-property-names-ecmascript@1.0.4
+94 silly currentTree ├── unicode-match-property-ecmascript@1.0.4
+94 silly currentTree ├── unicode-match-property-value-ecmascript@1.1.0
+94 silly currentTree ├── unicode-property-aliases-ecmascript@1.0.5
+94 silly currentTree ├── wcwidth@1.0.1
+94 silly currentTree ├── which@2.0.2
+94 silly currentTree ├── wrappy@1.0.2
+94 silly currentTree └── yargs-parser@13.1.1
+95 silly idealTree lit-element-beers@1.0.0
+95 silly idealTree ├── @babel/code-frame@7.5.5
+95 silly idealTree ├── @babel/core@7.7.5
+95 silly idealTree ├── @babel/generator@7.7.4
+95 silly idealTree ├── @babel/helper-annotate-as-pure@7.7.4
+95 silly idealTree ├── @babel/helper-builder-binary-assignment-operator-visitor@7.7.4
+95 silly idealTree ├── @babel/helper-call-delegate@7.7.4
+95 silly idealTree ├── @babel/helper-create-regexp-features-plugin@7.7.4
+95 silly idealTree ├── @babel/helper-define-map@7.7.4
+95 silly idealTree ├── @babel/helper-explode-assignable-expression@7.7.4
+95 silly idealTree ├── @babel/helper-function-name@7.7.4
+95 silly idealTree ├── @babel/helper-get-function-arity@7.7.4
+95 silly idealTree ├── @babel/helper-hoist-variables@7.7.4
+95 silly idealTree ├── @babel/helper-member-expression-to-functions@7.7.4
+95 silly idealTree ├── @babel/helper-module-imports@7.7.4
+95 silly idealTree ├── @babel/helper-module-transforms@7.7.5
+95 silly idealTree ├── @babel/helper-optimise-call-expression@7.7.4
+95 silly idealTree ├── @babel/helper-plugin-utils@7.0.0
+95 silly idealTree ├── @babel/helper-regex@7.5.5
+95 silly idealTree ├── @babel/helper-remap-async-to-generator@7.7.4
+95 silly idealTree ├── @babel/helper-replace-supers@7.7.4
+95 silly idealTree ├── @babel/helper-simple-access@7.7.4
+95 silly idealTree ├── @babel/helper-split-export-declaration@7.7.4
+95 silly idealTree ├── @babel/helper-wrap-function@7.7.4
+95 silly idealTree ├── @babel/helpers@7.7.4
+95 silly idealTree ├── @babel/highlight@7.5.0
+95 silly idealTree ├── @babel/parser@7.7.5
+95 silly idealTree ├── @babel/plugin-proposal-async-generator-functions@7.7.4
+95 silly idealTree ├── @babel/plugin-proposal-dynamic-import@7.7.4
+95 silly idealTree ├── @babel/plugin-proposal-json-strings@7.7.4
+95 silly idealTree ├── @babel/plugin-proposal-object-rest-spread@7.7.4
+95 silly idealTree ├── @babel/plugin-proposal-optional-catch-binding@7.7.4
+95 silly idealTree ├── @babel/plugin-proposal-unicode-property-regex@7.7.4
+95 silly idealTree ├── @babel/plugin-syntax-async-generators@7.7.4
+95 silly idealTree ├── @babel/plugin-syntax-dynamic-import@7.7.4
+95 silly idealTree ├── @babel/plugin-syntax-json-strings@7.7.4
+95 silly idealTree ├── @babel/plugin-syntax-object-rest-spread@7.7.4
+95 silly idealTree ├── @babel/plugin-syntax-optional-catch-binding@7.7.4
+95 silly idealTree ├── @babel/plugin-syntax-top-level-await@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-arrow-functions@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-async-to-generator@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-block-scoped-functions@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-block-scoping@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-classes@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-computed-properties@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-destructuring@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-dotall-regex@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-duplicate-keys@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-exponentiation-operator@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-for-of@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-function-name@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-literals@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-member-expression-literals@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-modules-amd@7.7.5
+95 silly idealTree ├── @babel/plugin-transform-modules-commonjs@7.7.5
+95 silly idealTree ├── @babel/plugin-transform-modules-systemjs@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-modules-umd@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-named-capturing-groups-regex@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-new-target@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-object-super@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-parameters@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-property-literals@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-regenerator@7.7.5
+95 silly idealTree ├── @babel/plugin-transform-reserved-words@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-shorthand-properties@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-spread@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-sticky-regex@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-template-literals@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-typeof-symbol@7.7.4
+95 silly idealTree ├── @babel/plugin-transform-unicode-regex@7.7.4
+95 silly idealTree ├── @babel/preset-env@7.7.6
+95 silly idealTree ├── @babel/template@7.7.4
+95 silly idealTree ├── @babel/traverse@7.7.4
+95 silly idealTree ├── @babel/types@7.7.4
+95 silly idealTree ├── @granite-elements/granite-lit-bootstrap@4.3.1-3
+95 silly idealTree ├── @pika/cli@0.2.0
+95 silly idealTree ├── @pika/web@0.6.1
+95 silly idealTree ├── @types/estree@0.0.40
+95 silly idealTree ├── @types/node@12.12.15
+95 silly idealTree ├── @types/resolve@0.0.8
+95 silly idealTree ├── acorn@7.1.0
+95 silly idealTree ├── ansi-regex@4.1.0
+95 silly idealTree ├── ansi-styles@3.2.1
+95 silly idealTree ├── babel-plugin-dynamic-import-node@2.3.0
+95 silly idealTree ├── balanced-match@1.0.0
+95 silly idealTree ├── bootstrap@4.3.1
+95 silly idealTree ├── brace-expansion@1.1.11
+95 silly idealTree ├── browserslist@4.8.2
+95 silly idealTree ├── buffer-from@1.1.1
+95 silly idealTree ├── builtin-modules@3.1.0
+95 silly idealTree ├── camelcase@5.3.1
+95 silly idealTree ├── caniuse-lite@1.0.30001015
+95 silly idealTree ├── chalk@2.4.2
+95 silly idealTree ├── cli-cursor@2.1.0
+95 silly idealTree ├── cli-spinners@2.2.0
+95 silly idealTree ├── clone@1.0.4
+95 silly idealTree ├── color-convert@1.9.3
+95 silly idealTree ├── color-name@1.1.3
+95 silly idealTree ├── commander@2.20.3
+95 silly idealTree ├── concat-map@0.0.1
+95 silly idealTree ├── convert-source-map@1.7.0
+95 silly idealTree ├─┬ core-js-compat@3.4.8
+95 silly idealTree │ └── semver@6.3.0
+95 silly idealTree ├── cross-spawn@7.0.1
+95 silly idealTree ├── debug@4.1.1
+95 silly idealTree ├── decamelize@1.2.0
+95 silly idealTree ├── defaults@1.0.3
+95 silly idealTree ├── define-properties@1.1.3
+95 silly idealTree ├── detect-indent@6.0.0
+95 silly idealTree ├── electron-to-chromium@1.3.322
+95 silly idealTree ├── end-of-stream@1.4.4
+95 silly idealTree ├── escape-string-regexp@1.0.5
+95 silly idealTree ├── estree-walker@0.6.1
+95 silly idealTree ├── esutils@2.0.3
+95 silly idealTree ├── execa@2.1.0
+95 silly idealTree ├── fs.realpath@1.0.0
+95 silly idealTree ├── function-bind@1.1.1
+95 silly idealTree ├── get-stream@5.1.0
+95 silly idealTree ├── glob@7.1.6
+95 silly idealTree ├── globals@11.12.0
+95 silly idealTree ├── has-flag@3.0.0
+95 silly idealTree ├── has-symbols@1.0.1
+95 silly idealTree ├── inflight@1.0.6
+95 silly idealTree ├── inherits@2.0.4
+95 silly idealTree ├── invariant@2.2.4
+95 silly idealTree ├── is-builtin-module@3.0.0
+95 silly idealTree ├── is-module@1.0.0
+95 silly idealTree ├─┬ is-reference@1.1.4
+95 silly idealTree │ └── @types/estree@0.0.39
+95 silly idealTree ├── is-stream@2.0.0
+95 silly idealTree ├── isexe@2.0.0
+95 silly idealTree ├─┬ jest-worker@24.9.0
+95 silly idealTree │ └── supports-color@6.1.0
+95 silly idealTree ├── js-levenshtein@1.1.6
+95 silly idealTree ├── js-tokens@4.0.0
+95 silly idealTree ├── jsesc@2.5.2
+95 silly idealTree ├── json5@2.1.1
+95 silly idealTree ├── lit-element@2.2.1
+95 silly idealTree ├── lit-html@1.1.2
+95 silly idealTree ├── lodash@4.17.15
+95 silly idealTree ├── log-symbols@2.2.0
+95 silly idealTree ├── loose-envify@1.4.0
+95 silly idealTree ├── magic-string@0.25.4
+95 silly idealTree ├── merge-stream@2.0.0
+95 silly idealTree ├── mimic-fn@2.1.0
+95 silly idealTree ├── minimatch@3.0.4
+95 silly idealTree ├── minimist@1.2.0
+95 silly idealTree ├─┬ mkdirp@0.5.1
+95 silly idealTree │ └── minimist@0.0.8
+95 silly idealTree ├── ms@2.1.2
+95 silly idealTree ├─┬ node-releases@1.1.42
+95 silly idealTree │ └── semver@6.3.0
+95 silly idealTree ├── npm-run-path@3.1.0
+95 silly idealTree ├── object-keys@1.1.1
+95 silly idealTree ├── object.assign@4.1.0
+95 silly idealTree ├── once@1.4.0
+95 silly idealTree ├── onetime@5.1.0
+95 silly idealTree ├── ora@3.4.0
+95 silly idealTree ├── p-finally@2.0.1
+95 silly idealTree ├── path-is-absolute@1.0.1
+95 silly idealTree ├── path-key@3.1.1
+95 silly idealTree ├── path-parse@1.0.6
+95 silly idealTree ├── private@0.1.8
+95 silly idealTree ├── pump@3.0.0
+95 silly idealTree ├── regenerate-unicode-properties@8.1.0
+95 silly idealTree ├── regenerate@1.4.0
+95 silly idealTree ├── regenerator-transform@0.14.1
+95 silly idealTree ├── regexpu-core@4.6.0
+95 silly idealTree ├── regjsgen@0.5.1
+95 silly idealTree ├─┬ regjsparser@0.6.0
+95 silly idealTree │ └── jsesc@0.5.0
+95 silly idealTree ├── resolve-from@5.0.0
+95 silly idealTree ├── resolve@1.13.1
+95 silly idealTree ├─┬ restore-cursor@2.0.0
+95 silly idealTree │ ├── mimic-fn@1.2.0
+95 silly idealTree │ └── onetime@2.0.1
+95 silly idealTree ├── rimraf@3.0.0
+95 silly idealTree ├── rollup-plugin-babel@4.3.3
+95 silly idealTree ├── rollup-plugin-commonjs@10.1.0
+95 silly idealTree ├── rollup-plugin-json@4.0.0
+95 silly idealTree ├── rollup-plugin-node-resolve@5.2.0
+95 silly idealTree ├── rollup-plugin-replace@2.2.0
+95 silly idealTree ├── rollup-plugin-terser@5.1.2
+95 silly idealTree ├── rollup-pluginutils@2.8.2
+95 silly idealTree ├── rollup@1.27.9
+95 silly idealTree ├── safe-buffer@5.1.2
+95 silly idealTree ├── semver@5.7.1
+95 silly idealTree ├── serialize-javascript@1.9.1
+95 silly idealTree ├── shebang-command@2.0.0
+95 silly idealTree ├── shebang-regex@3.0.0
+95 silly idealTree ├── signal-exit@3.0.2
+95 silly idealTree ├─┬ source-map-support@0.5.16
+95 silly idealTree │ └── source-map@0.6.1
+95 silly idealTree ├── source-map@0.5.7
+95 silly idealTree ├── sourcemap-codec@1.4.6
+95 silly idealTree ├── strip-ansi@5.2.0
+95 silly idealTree ├── strip-final-newline@2.0.0
+95 silly idealTree ├── supports-color@5.5.0
+95 silly idealTree ├─┬ terser@4.4.2
+95 silly idealTree │ └── source-map@0.6.1
+95 silly idealTree ├── to-fast-properties@2.0.0
+95 silly idealTree ├── unicode-canonical-property-names-ecmascript@1.0.4
+95 silly idealTree ├── unicode-match-property-ecmascript@1.0.4
+95 silly idealTree ├── unicode-match-property-value-ecmascript@1.1.0
+95 silly idealTree ├── unicode-property-aliases-ecmascript@1.0.5
+95 silly idealTree ├── wcwidth@1.0.1
+95 silly idealTree ├── which@2.0.2
+95 silly idealTree ├── wrappy@1.0.2
+95 silly idealTree └── yargs-parser@13.1.1
+96 silly generateActionsToTake Starting
+97 silly install generateActionsToTake
+98 silly generateActionsToTake Finishing
+99 silly diffTrees action count 1
+100 silly diffTrees update @granite-elements/granite-lit-bootstrap@4.3.1-3
+101 silly decomposeActions action count 8
+102 silly decomposeActions fetch @granite-elements/granite-lit-bootstrap@4.3.1-3
+103 silly decomposeActions extract @granite-elements/granite-lit-bootstrap@4.3.1-3
+104 silly decomposeActions test @granite-elements/granite-lit-bootstrap@4.3.1-3
+105 silly decomposeActions preinstall @granite-elements/granite-lit-bootstrap@4.3.1-3
+106 silly decomposeActions build @granite-elements/granite-lit-bootstrap@4.3.1-3
+107 silly decomposeActions install @granite-elements/granite-lit-bootstrap@4.3.1-3
+108 silly decomposeActions postinstall @granite-elements/granite-lit-bootstrap@4.3.1-3
+109 silly decomposeActions finalize @granite-elements/granite-lit-bootstrap@4.3.1-3
+110 silly executeActions Starting
+111 silly install executeActions
+112 silly doSerial global-install 0
+113 silly doParallel fetch 1
+114 verbose lock using /home/steve/.npm/_locks/staging-bdfabb4903400984.lock for /home/steve/git/lit-element-beers/app/node_modules/.staging
+115 silly doParallel extract 1
+116 silly extract @granite-elements/granite-lit-bootstrap@4.3.1-3
+117 verbose unbuild node_modules/.staging/@granite-elements/granite-lit-bootstrap-a998f50b
+118 silly gentlyRm /home/steve/git/lit-element-beers/app/node_modules/.staging/@granite-elements/granite-lit-bootstrap-a998f50b is being purged from base /home/steve/git/lit-element-beers/app
+119 verbose gentlyRm don't care about contents; nuking /home/steve/git/lit-element-beers/app/node_modules/.staging/@granite-elements/granite-lit-bootstrap-a998f50b
+120 verbose tar unpack /home/steve/.npm/@granite-elements/granite-lit-bootstrap/4.3.1-3/package.tgz
+121 verbose tar unpacking to /home/steve/git/lit-element-beers/app/node_modules/.staging/@granite-elements/granite-lit-bootstrap-a998f50b
+122 silly gentlyRm /home/steve/git/lit-element-beers/app/node_modules/.staging/@granite-elements/granite-lit-bootstrap-a998f50b is being purged
+123 verbose gentlyRm don't care about contents; nuking /home/steve/git/lit-element-beers/app/node_modules/.staging/@granite-elements/granite-lit-bootstrap-a998f50b
+124 silly gunzTarPerm modes [ '777', '666' ]
+125 silly gunzTarPerm extractEntry package.json
+126 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+127 silly gunzTarPerm extractEntry .eslintrc.json
+128 silly gunzTarPerm modified mode [ '.eslintrc.json', 420, 438 ]
+129 silly gunzTarPerm extractEntry granite-lit-bootstrap-grid-min.js
+130 silly gunzTarPerm modified mode [ 'granite-lit-bootstrap-grid-min.js', 420, 438 ]
+131 silly gunzTarPerm extractEntry granite-lit-bootstrap-grid.js
+132 silly gunzTarPerm modified mode [ 'granite-lit-bootstrap-grid.js', 420, 438 ]
+133 silly gunzTarPerm extractEntry granite-lit-bootstrap-min.js
+134 silly gunzTarPerm modified mode [ 'granite-lit-bootstrap-min.js', 420, 438 ]
+135 silly gunzTarPerm extractEntry granite-lit-bootstrap-reboot-min.js
+136 silly gunzTarPerm modified mode [ 'granite-lit-bootstrap-reboot-min.js', 420, 438 ]
+137 silly gunzTarPerm extractEntry granite-lit-bootstrap-reboot.js
+138 silly gunzTarPerm modified mode [ 'granite-lit-bootstrap-reboot.js', 420, 438 ]
+139 silly gunzTarPerm extractEntry granite-lit-bootstrap.js
+140 silly gunzTarPerm modified mode [ 'granite-lit-bootstrap.js', 420, 438 ]
+141 silly gunzTarPerm extractEntry index.html
+142 silly gunzTarPerm modified mode [ 'index.html', 420, 438 ]
+143 silly gunzTarPerm extractEntry LICENCE.md
+144 silly gunzTarPerm modified mode [ 'LICENCE.md', 493, 511 ]
+145 silly gunzTarPerm extractEntry polymer.json
+146 silly gunzTarPerm modified mode [ 'polymer.json', 420, 438 ]
+147 silly gunzTarPerm extractEntry README.md
+148 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+149 silly gunzTarPerm extractEntry demo/granite-bootstrap-example.js
+150 silly gunzTarPerm modified mode [ 'demo/granite-bootstrap-example.js', 420, 438 ]
+151 silly gunzTarPerm extractEntry demo/index.html
+152 silly gunzTarPerm modified mode [ 'demo/index.html', 420, 438 ]
+153 silly gunzTarPerm extractEntry scripts/granite-css-modularizer.js
+154 silly gunzTarPerm modified mode [ 'scripts/granite-css-modularizer.js', 420, 438 ]
+155 silly gentlyRm /home/steve/git/lit-element-beers/app/node_modules/.staging/@granite-elements/granite-lit-bootstrap-a998f50b/node_modules is being purged
+156 verbose gentlyRm don't care about contents; nuking /home/steve/git/lit-element-beers/app/node_modules/.staging/@granite-elements/granite-lit-bootstrap-a998f50b/node_modules
+157 silly doParallel preinstall 1
+158 silly preinstall @granite-elements/granite-lit-bootstrap@4.3.1-3 /home/steve/git/lit-element-beers/app/node_modules/.staging/@granite-elements/granite-lit-bootstrap-a998f50b
+159 info lifecycle @granite-elements/granite-lit-bootstrap@4.3.1-3~preinstall: @granite-elements/granite-lit-bootstrap@4.3.1-3
+160 silly lifecycle @granite-elements/granite-lit-bootstrap@4.3.1-3~preinstall: no script for preinstall, continuing
+161 silly doReverseSerial remove 0
+162 silly doSerial move 0
+163 silly doSerial finalize 1
+164 silly finalize /home/steve/git/lit-element-beers/app/node_modules/@granite-elements/granite-lit-bootstrap
+165 verbose unlock done using /home/steve/.npm/_locks/staging-bdfabb4903400984.lock for /home/steve/git/lit-element-beers/app/node_modules/.staging
+166 silly rollbackFailedOptional Starting
+167 silly rollbackFailedOptional Finishing
+168 silly runTopLevelLifecycles Starting
+169 silly runTopLevelLifecycles Finishing
+170 silly install printInstalled
+171 warn bootstrap@4.3.1 requires a peer of jquery@1.9.1 - 3 but none was installed.
+172 warn bootstrap@4.3.1 requires a peer of popper.js@^1.14.7 but none was installed.
+173 warn lit-element-beers@1.0.0 No description
+174 warn lit-element-beers@1.0.0 No repository field.
+175 warn lit-element-beers@1.0.0 No license field.
+176 verbose stack Error: EACCES: permission denied, rename '/home/steve/git/lit-element-beers/app/node_modules/@granite-elements/granite-lit-bootstrap' -> '/home/steve/git/lit-element-beers/app/node_modules/@granite-elements/.granite-lit-bootstrap.DELETE'
+176 verbose stack     at moveAway (/usr/share/npm/lib/install/action/finalize.js:38:5)
+176 verbose stack     at destStatted (/usr/share/npm/lib/install/action/finalize.js:27:7)
+176 verbose stack     at FSReqWrap.oncomplete (fs.js:153:5)
+176 verbose stack
+176 verbose stack Error: EACCES: permission denied, rename '/home/steve/git/lit-element-beers/app/node_modules/@granite-elements/granite-lit-bootstrap' -> '/home/steve/git/lit-element-beers/app/node_modules/@granite-elements/.granite-lit-bootstrap.DELETE'
+177 verbose cwd /home/steve/git/lit-element-beers/app
+178 error Linux 4.4.0-17763-Microsoft
+179 error argv "/usr/bin/node" "/usr/bin/npm" "i" "@granite-elements/granite-lit-bootstrap"
+180 error node v8.10.0
+181 error npm  v3.5.2
+182 error path /home/steve/git/lit-element-beers/app/node_modules/@granite-elements/granite-lit-bootstrap
+183 error code EACCES
+184 error errno -13
+185 error syscall rename
+186 error Error: EACCES: permission denied, rename '/home/steve/git/lit-element-beers/app/node_modules/@granite-elements/granite-lit-bootstrap' -> '/home/steve/git/lit-element-beers/app/node_modules/@granite-elements/.granite-lit-bootstrap.DELETE'
+186 error     at moveAway (/usr/share/npm/lib/install/action/finalize.js:38:5)
+186 error     at destStatted (/usr/share/npm/lib/install/action/finalize.js:27:7)
+186 error     at FSReqWrap.oncomplete (fs.js:153:5)
+186 error
+186 error Error: EACCES: permission denied, rename '/home/steve/git/lit-element-beers/app/node_modules/@granite-elements/granite-lit-bootstrap' -> '/home/steve/git/lit-element-beers/app/node_modules/@granite-elements/.granite-lit-bootstrap.DELETE'
+186 error  { Error: EACCES: permission denied, rename '/home/steve/git/lit-element-beers/app/node_modules/@granite-elements/granite-lit-bootstrap' -> '/home/steve/git/lit-element-beers/app/node_modules/@granite-elements/.granite-lit-bootstrap.DELETE'
+186 error     at moveAway (/usr/share/npm/lib/install/action/finalize.js:38:5)
+186 error     at destStatted (/usr/share/npm/lib/install/action/finalize.js:27:7)
+186 error     at FSReqWrap.oncomplete (fs.js:153:5)
+186 error
+186 error Error: EACCES: permission denied, rename '/home/steve/git/lit-element-beers/app/node_modules/@granite-elements/granite-lit-bootstrap' -> '/home/steve/git/lit-element-beers/app/node_modules/@granite-elements/.granite-lit-bootstrap.DELETE' parent: 'lit-element-beers' }
+187 error Please try running this command again as root/Administrator.
+188 verbose exit [ -13, true ]

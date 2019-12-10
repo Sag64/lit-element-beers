@@ -1,0 +1,11 @@
+{
+  "name": "lit-element-beers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "@pika/web": "^0.6.1"
+  }
+}
